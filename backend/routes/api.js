@@ -5,6 +5,7 @@ const apiGenereate = require('../controllers/generate');
 
 router.get('/hello', apiController.sayHello);
 
-router.get('/generate/:num', apiGenereate.resetData);
+router.get('/generate', apiGenereate.resetData);
+router.get('/graphic', apiGenereate.previewTable);
 
 module.exports = router;

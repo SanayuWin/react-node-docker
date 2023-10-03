@@ -42,3 +42,17 @@ TABLESPACE pg_default;
 
 ALTER TABLE IF EXISTS public.graphic
     OWNER to postgres;
+
+
+-- Insert table group
+
+-- INSERT INTO public."group"(
+-- 	 types, run, datas, created_at)
+-- 	VALUES ('random', 1, 1000, '2023-10-03');
+
+
+-- Insert graphic
+
+-- INSERT INTO public.graphic(
+-- 	 num, layer, height, width, x_axis, y_axis, border_weight, border_color, font_size, font_weight, note, created_at)
+-- 	VALUES ( 2, 1, 50, 50, 0, 0, 600, '#FFFFFF', 16, 600, 'test', '2023-10-03');
