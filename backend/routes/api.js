@@ -1,0 +1,10 @@
+const express = require('express');
+const router = express.Router();
+const apiController = require('../controllers/apiController');
+const apiGenereate = require('../controllers/generate');
+
+router.get('/hello', apiController.sayHello);
+
+router.get('/generate/:num', apiGenereate.resetData);
+
+module.exports = router;
